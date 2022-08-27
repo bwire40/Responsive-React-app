@@ -148,3 +148,54 @@ export const testimonials = [
     avatar: require("./images/avatar5.png"),
   },
 ];
+
+export const plans = [
+  {
+    id: 1,
+    name: "Silver Package",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    price: 29.99,
+    feactures: [
+      { feature: "First", available: true },
+      { feature: "Second", available: true },
+      { feature: "Third", available: false },
+      { feature: "Fourth", available: true },
+      { feature: "Fifth", available: false },
+      { feature: "Sixth", available: true },
+      { feature: "Seventh", available: true },
+      { feature: "Eighth", available: true },
+    ],
+  },
+  {
+    id: 2,
+    name: "Bronze Package",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    price: 39.99,
+    feactures: [
+      { feature: "First", available: true },
+      { feature: "Second", available: true },
+      { feature: "Third", available: false },
+      { feature: "Fourth", available: true },
+      { feature: "Fifth", available: false },
+      { feature: "Sixth", available: true },
+      { feature: "Seventh", available: true },
+      { feature: "Eighth", available: true },
+    ],
+  },
+  {
+    id: 3,
+    name: "Gold Package",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    price: 49.99,
+    feactures: [
+      { feature: "First", available: true },
+      { feature: "Second", available: true },
+      { feature: "Third", available: false },
+      { feature: "Fourth", available: true },
+      { feature: "Fifth", available: false },
+      { feature: "Sixth", available: true },
+      { feature: "Seventh", available: true },
+      { feature: "Eighth", available: true },
+    ],
+  },
+];
