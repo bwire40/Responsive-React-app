@@ -7,8 +7,8 @@ export default function MainHeader() {
       <div className="main--header">
         <div className="container main--header-container">
           <div className="main--header-left">
-            <h4>#100DaysOfWorkOut</h4>
-            <h1>Join the legend of the Fitness World</h1>
+            <h4>#100DaysOfCode</h4>
+            <h1>Lets create codes for a better future</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
               faucibus a arcu ut facilisis. Suspendisse suscipit ante in neque

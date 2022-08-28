@@ -37,6 +37,7 @@
 .main-header-circle {
   width: 25rem;
   height: 25rem;
+  filter: blur(5px);
   background: linear-gradient(75deg, var(--color-secondary), transparent);
   border-radius: 50%;
   position: absolute;
@@ -45,9 +46,6 @@
 }
 .main-header-img {
   position: relative;
-}
-.main--header-right .main-header-circle:hover {
-  filter: blur(5px);
 }
 
 /* programs  */

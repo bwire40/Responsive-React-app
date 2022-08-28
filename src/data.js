@@ -1,5 +1,8 @@
 /* eslint-disable react/jsx-no-undef */
 import { SiOpenaigym } from "react-icons/si";
+const Trainer1 = require("./images/avatar1.png");
+const Trainer2 = require("./images/avatar5.png");
+const Trainer3 = require("./images/avatar3.png");
 export const Links = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
@@ -70,37 +73,37 @@ export const values = [
 export const faqs = [
   {
     id: 1,
-    question: "How Often should i excercise?",
+    question: "Where do i start with programming?",
     answer:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel quam nec justo vehicula posuere vitae ut est",
   },
   {
     id: 2,
-    question: "What time is best for workout?",
+    question: "Do i have to be a maths wizzard?",
     answer:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel quam nec justo vehicula posuere vitae ut est. Sed sed nunc id ligula tempor lobortis at sed neque",
   },
   {
     id: 3,
-    question: "How long should my workout be?",
+    question: "How long will it take to get my first job?",
     answer:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel quam nec justo vehicula posuere vitae ut est",
   },
   {
     id: 4,
-    question: "What time is best for rest?",
+    question: "What time is best for coding?",
     answer:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel quam nec justo vehicula posuere vitae ut est",
   },
   {
     id: 5,
-    question: "Cardio or both?",
+    question: "front or backend?",
     answer:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel quam nec justo vehicula posuere vitae ut est",
   },
   {
     id: 6,
-    question: "Should i lift weights for strength training?",
+    question: "Which type of computer/laptop is recommended to start?",
     answer:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel quam nec justo vehicula posuere vitae ut est",
   },
@@ -155,7 +158,7 @@ export const plans = [
     name: "Silver Package",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     price: 29.99,
-    feactures: [
+    features: [
       { feature: "First", available: true },
       { feature: "Second", available: true },
       { feature: "Third", available: false },
@@ -171,7 +174,7 @@ export const plans = [
     name: "Bronze Package",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     price: 39.99,
-    feactures: [
+    features: [
       { feature: "First", available: true },
       { feature: "Second", available: true },
       { feature: "Third", available: false },
@@ -187,7 +190,7 @@ export const plans = [
     name: "Gold Package",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     price: 49.99,
-    feactures: [
+    features: [
       { feature: "First", available: true },
       { feature: "Second", available: true },
       { feature: "Third", available: false },
@@ -196,6 +199,42 @@ export const plans = [
       { feature: "Sixth", available: true },
       { feature: "Seventh", available: false },
       { feature: "Eighth", available: true },
+    ],
+  },
+];
+
+export const trainers = [
+  {
+    id: 1,
+    image: Trainer1,
+    name: "John",
+    job: "Front-End Developer",
+    socials: [
+      "https://instagram.com",
+      "https://twitter.com",
+      "https://facebook.com",
+    ],
+  },
+  {
+    id: 2,
+    image: Trainer2,
+    name: "Celine",
+    job: "UI/XI Designer",
+    socials: [
+      "https://instagram.com",
+      "https://twitter.com",
+      "https://facebook.com",
+    ],
+  },
+  {
+    id: 3,
+    image: Trainer3,
+    name: "Kevin",
+    job: "Back-End Developer",
+    socials: [
+      "https://instagram.com",
+      "https://twitter.com",
+      "https://facebook.com",
     ],
   },
 ];
